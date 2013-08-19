@@ -1,0 +1,10 @@
+﻿<Window x:Class="LyncRobot.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainView" Height="300" Width="300">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="Send" Click="btnSend_click">Send</Button>
+        </StackPanel>
+    </Grid>
+</Window>

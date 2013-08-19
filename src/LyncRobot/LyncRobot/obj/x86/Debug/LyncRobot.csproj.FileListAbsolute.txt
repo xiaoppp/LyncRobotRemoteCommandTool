@@ -1,0 +1,218 @@
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\LyncRobot.exe
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\LyncRobot.pdb
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\Microsoft.Lync.Controls.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\Microsoft.Lync.Controls.Framework.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\Microsoft.Lync.Model.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\Microsoft.Lync.Utilities.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\Microsoft.Office.Uc.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\Microsoft.Lync.Controls.xml
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\Microsoft.Lync.Model.xml
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\bg-bg\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\ca-es\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\cs-cz\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\da-dk\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\de-de\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\el-gr\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\en-us\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\es-es\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\et-ee\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\eu-es\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\fi-fi\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\fr-fr\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\gl-es\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\hi-in\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\hr-hr\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\hu-hu\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\id-id\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\it-it\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\ja-jp\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\kk-kz\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\ko-kr\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\lt-lt\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\lv-lv\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\ms-my\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\nb-no\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\nl-nl\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\pl-pl\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\pt-br\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\pt-pt\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\ro-ro\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\ru-ru\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\sk-sk\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\sl-si\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\sr-cyrl-cs\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\sr-latn-cs\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\sv-se\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\th-th\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\tr-tr\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\uk-ua\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\vi-vn\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\zh-cn\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\zh-tw\Microsoft.Lync.Controls.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\bg-bg\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\ca-es\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\cs-cz\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\da-dk\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\de-de\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\el-gr\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\en-us\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\es-es\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\et-ee\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\eu-es\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\fi-fi\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\fr-fr\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\gl-es\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\hi-in\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\hr-hr\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\hu-hu\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\id-id\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\it-it\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\ja-jp\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\kk-kz\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\ko-kr\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\lt-lt\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\lv-lv\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\ms-my\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\nb-no\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\nl-nl\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\pl-pl\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\pt-br\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\pt-pt\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\ro-ro\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\ru-ru\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\sk-sk\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\sl-si\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\sr-cyrl-cs\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\sr-latn-cs\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\sv-se\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\th-th\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\tr-tr\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\uk-ua\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\vi-vn\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\zh-cn\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\zh-tw\Microsoft.Lync.Controls.Framework.resources.dll
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\obj\x86\Debug\LoginView.baml
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\obj\x86\Debug\LoginView.g.cs
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\obj\x86\Debug\App.g.cs
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\obj\x86\Debug\LyncRobot_MarkupCompile.cache
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\obj\x86\Debug\LyncRobot.g.resources
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\obj\x86\Debug\LyncRobot.Properties.Resources.resources
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\obj\x86\Debug\LyncRobot.exe
+c:\users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\obj\x86\Debug\LyncRobot.pdb
+C:\Users\xpeng\Documents\Visual Studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\DCSoft.RTF.dll
+C:\Users\xpeng\Documents\Visual Studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\DCSoft.RTF.pdb
+C:\Users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\obj\x86\Debug\MainView.baml
+C:\Users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\obj\x86\Debug\MainView.g.cs
+C:\Users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\LyncRobotCommand.dll
+C:\Users\xpeng\documents\visual studio 2010\Projects\LyncRobot\LyncRobot\bin\Debug\LyncRobotCommand.pdb
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\obj\x86\Debug\LoginView.baml
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\obj\x86\Debug\MainView.baml
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\obj\x86\Debug\LoginView.g.cs
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\obj\x86\Debug\MainView.g.cs
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\obj\x86\Debug\App.g.cs
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\obj\x86\Debug\LyncRobot_MarkupCompile.cache
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\obj\x86\Debug\LyncRobot.g.resources
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\obj\x86\Debug\LyncRobot.Properties.Resources.resources
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\obj\x86\Debug\LyncRobot.pdb
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\LyncRobot.exe
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\LyncRobot.pdb
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\LyncRobotCommand.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\Microsoft.Lync.Controls.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\Microsoft.Lync.Controls.Framework.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\Microsoft.Lync.Model.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\Microsoft.Lync.Utilities.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\Microsoft.Office.Uc.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\LyncRobotCommand.pdb
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\Microsoft.Lync.Controls.xml
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\Microsoft.Lync.Model.xml
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\bg-bg\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\ca-es\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\cs-cz\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\da-dk\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\de-de\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\el-gr\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\en-us\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\es-es\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\et-ee\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\eu-es\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\fi-fi\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\fr-fr\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\gl-es\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\hi-in\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\hr-hr\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\hu-hu\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\id-id\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\it-it\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\ja-jp\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\kk-kz\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\ko-kr\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\lt-lt\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\lv-lv\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\ms-my\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\nb-no\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\nl-nl\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\pl-pl\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\pt-br\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\pt-pt\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\ro-ro\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\ru-ru\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\sk-sk\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\sl-si\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\sr-cyrl-cs\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\sr-latn-cs\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\sv-se\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\th-th\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\tr-tr\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\uk-ua\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\vi-vn\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\zh-cn\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\zh-tw\Microsoft.Lync.Controls.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\bg-bg\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\ca-es\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\cs-cz\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\da-dk\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\de-de\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\el-gr\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\en-us\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\es-es\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\et-ee\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\eu-es\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\fi-fi\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\fr-fr\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\gl-es\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\hi-in\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\hr-hr\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\hu-hu\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\id-id\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\it-it\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\ja-jp\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\kk-kz\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\ko-kr\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\lt-lt\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\lv-lv\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\ms-my\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\nb-no\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\nl-nl\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\pl-pl\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\pt-br\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\pt-pt\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\ro-ro\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\ru-ru\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\sk-sk\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\sl-si\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\sr-cyrl-cs\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\sr-latn-cs\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\sv-se\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\th-th\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\tr-tr\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\uk-ua\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\vi-vn\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\zh-cn\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\bin\Debug\zh-tw\Microsoft.Lync.Controls.Framework.resources.dll
+C:\Users\xpeng\Documents\GitHub\LyncRobotRemoteCommandTool\src\LyncRobot\LyncRobot\obj\x86\Debug\LyncRobot.exe
