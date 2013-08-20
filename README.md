@@ -1,4 +1,4 @@
 LyncRobotRemoteCommandTool
 ==========================
 
-Use Lync Client as a remove command tool
+Use Lync Client as a remote command tool
