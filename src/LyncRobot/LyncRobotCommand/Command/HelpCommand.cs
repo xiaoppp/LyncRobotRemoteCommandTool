@@ -14,7 +14,6 @@ namespace LyncRobotCommand.Command
             if (!string.IsNullOrEmpty(arg.CommandName))
             {
                 var command = CommandManager.FindCommand(arg.CommandName);
-
             }
 
             StringBuilder builder = new StringBuilder();

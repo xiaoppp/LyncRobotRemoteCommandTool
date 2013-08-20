@@ -58,25 +58,10 @@ namespace LyncRobotCommand.Command
                 //set current setup
                 this.CommandManager.CurrentSetup = setup;
 
-                StringBuilder builder = new StringBuilder();
-                builder.AppendLine("you are enter " + setupName + "," + " it have the following machines...");
+                if (args.IsDisplayAll)
+                    return setup.SetupOutputDetailsAll();
 
-                foreach (var machine in setup.Machines)
-                {
-                    builder.AppendLine();
-                    builder.Append(machine.Output);
-
-                    if (args.IsDisplayIpAddress)
-                        builder.Append(machine.OutputIpAddress);
-
-                    if (args.IsDisplayDateTime)
-                        builder.Append(machine.OutputDate);
-
-                    if (args.IsDisplayAll)
-                        builder.Append(machine.OutputAll);
-                }
-
-                return builder.ToString();
+                return setup.SetupOutputDetails();
             }
         }
     }
@@ -122,20 +107,17 @@ namespace LyncRobotCommand.Command
                 const string help = @"
 Help Content:
 --------
-enter # -a -i -t -n=#
+enter # -a -n=#
 
 Options:
 --------
 -n -setup, which setup you want to enter
 -all -a, used to display all the params
--ipaddress -i, used to display the Ipaddress
--datetime -t, used to display the datetime the user checkout
 -help -?  ,this help display
 
 Examples:
 ---------
 ENTER S20 -a 
-ENTER -nS20 -a -i -t
 ";
                 return help;
             }

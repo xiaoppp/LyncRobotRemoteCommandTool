@@ -26,8 +26,19 @@ namespace LyncRobotCommand.Entity
                 new Machine { MachineName = "UIP7UCC".ToLower(), IPAddress = "192.168.1.5" }
             };
 
+            Setup setup1 = new Setup() { SetupName = "s21" };
+            setup1.Machines = new List<Machine> {
+                new Machine{ MachineName = "UIP7PDB".ToLower(), IPAddress="10.200.47.1" },
+                new Machine { MachineName = "UIP7RDB".ToLower(), IPAddress = "10.200.47.2" },
+                new Machine { MachineName = "UIP7Core".ToLower(), IPAddress = "10.200.47.3" },
+                new Machine { MachineName = "UIP7Corex".ToLower(), IPAddress = "10.200.47.4" },
+                new Machine { MachineName = "UIP7UCC".ToLower(), IPAddress = "10.200.47.5" }
+            };
+
             SetupList.Add(setup);
             SetupNameDic.Add("s20", setup);
+            SetupList.Add(setup1);
+            SetupNameDic.Add("s21", setup1);
         }
 
         public static Setup GetSetupByName(string name)
@@ -36,6 +47,30 @@ namespace LyncRobotCommand.Entity
                 return SetupNameDic[name];
 
             return null;
+        }
+
+        public static string SetupsOutput()
+        {
+            StringBuilder builder = new StringBuilder();
+
+            foreach (var set in SetupList)
+            {
+                builder.AppendLine(set.SetupName);
+            }
+
+            return builder.ToString();
+        }
+
+        public static string SetupsOutputDetails()
+        {
+            StringBuilder builder = new StringBuilder();
+
+            foreach (var set in SetupList)
+            {
+                builder.AppendLine(set.SetupOutputDetails());
+            }
+
+            return builder.ToString();
         }
     }
 
@@ -58,6 +93,39 @@ namespace LyncRobotCommand.Entity
         public Machine GetMachinebyIpaddress(string ipaddress)
         {
             return Machines.SingleOrDefault<Machine>(m => m.IPAddress == ipaddress);
+        }
+
+        public string SetupOutput()
+        {
+            return "This is " + SetupName + " setup.";
+        }
+
+        public string SetupOutputDetails()
+        {
+            StringBuilder builder = new StringBuilder();
+
+            builder.AppendLine(SetupOutput());
+            foreach (var machine in this.Machines)
+            {
+                builder.AppendLine();
+                builder.Append(machine.MachineOutput());
+            }
+
+            return builder.ToString();
+        }
+
+        public string SetupOutputDetailsAll()
+        {
+            StringBuilder builder = new StringBuilder();
+
+            builder.AppendLine(SetupOutput());
+            foreach (var machine in this.Machines)
+            {
+                builder.AppendLine();
+                builder.Append(machine.MachineOutputALL());
+            }
+
+            return builder.ToString();
         }
     }
 
@@ -93,38 +161,20 @@ namespace LyncRobotCommand.Entity
             }
         }
 
-        public string Output
+        public string MachineOutput()
         {
-            get {
-                if (IsCheckout)
-                    return MachineName + ": " + Status + " by " + UserName;
-                else
-                    return MachineName + ": " + Status;
-            }
+            if (IsCheckout)
+                return MachineName + ": " + Status + " by " + UserName;
+            else
+                return MachineName + ": " + Status;
         }
 
-        public string OutputIpAddress
+        public string MachineOutputALL()
         {
-            get
-            {
-                return " " + this.IPAddress;
-            }
-        }
-
-        public string OutputDate
-        {
-            get
-            {
-                return " " + this.CheckoutDate;
-            }
-        }
-
-        public string OutputAll
-        {
-            get
-            {
-                return OutputIpAddress + OutputDate;
-            }
+            if (IsCheckout)
+                return MachineName + ": " + Status + " by " + UserName + " " + this.IPAddress + " " + this.CheckoutDate;
+            else
+                return MachineName + ": " + Status + " " + this.IPAddress + " " + this.CheckoutDate;
         }
     }
 }

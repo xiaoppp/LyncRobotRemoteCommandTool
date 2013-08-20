@@ -10,11 +10,11 @@ namespace LyncRobotCommand
 {
     public enum LyncRobotCommandList
     { 
-        order,
+        setup,
         enter,
         checkin,
         checkout,
-        currentsetup
+        currentsetup,
     }
 
     //hold all the commands
@@ -39,8 +39,10 @@ namespace LyncRobotCommand
             EnterCommand enter = new EnterCommand();
             CheckinCommand checkin = new CheckinCommand();
             CheckoutCommand checkout = new CheckoutCommand();
-            
-            this.Commands = new Collection<ICommand>() { order, help, enter, checkin, checkout };
+            CurrentSetupCommand currentsetup = new CurrentSetupCommand();
+            SetupCommand setup = new SetupCommand();
+
+            this.Commands = new Collection<ICommand>() { help, enter, checkin, checkout, currentsetup, setup };
         }
 
         public string OutputAllCommandContent()

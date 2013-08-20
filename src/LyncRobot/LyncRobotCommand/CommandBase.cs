@@ -12,7 +12,12 @@ namespace LyncRobotCommand
         public abstract string Name { get; }
         public abstract string Description { get; }
 
-        public virtual string Alias { get; private set; }
+        private string alias;
+        public virtual string Alias
+        {
+            get { return alias ?? string.Empty; }
+            set { alias = value; }
+        }
 
         protected string ParticipantURI { get { return CommandManager.ParticipantURI; } }
 

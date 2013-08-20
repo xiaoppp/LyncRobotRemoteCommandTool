@@ -32,25 +32,10 @@ namespace LyncRobotCommand.Command
 
             var setup = this.CommandManager.CurrentSetup;
 
-            StringBuilder builder = new StringBuilder();
-            builder.AppendLine("you are enter " + setup.SetupName + "," + " it have the following machines...");
+            if (args.IsDisplayAll)
+                return setup.SetupOutputDetailsAll();
 
-            foreach (var machine in setup.Machines)
-            {
-                builder.AppendLine();
-                builder.Append(machine.Output);
-
-                if (args.IsDisplayIpAddress)
-                    builder.Append(machine.OutputIpAddress);
-
-                if (args.IsDisplayDateTime)
-                    builder.Append(machine.OutputDate);
-
-                if (args.IsDisplayAll)
-                    builder.Append(machine.OutputAll);
-            }
-
-            return builder.ToString();
+            return setup.SetupOutputDetails();
         }
     }
 
@@ -70,20 +55,13 @@ namespace LyncRobotCommand.Command
 
         public override CommandArgs Parse(IEnumerable<string> arguments)
         {
-            var parms = new EnterArgs();
+            var parms = new CurrentSetupArgs();
 
             var options = new OptionSet()
-                .Add("n=|setup", n => { parms.SetupName = n; })
                 .Add("a|all", a => { parms.IsDisplayAll = true; })
-                .Add("i|ipaddress", i => { parms.IsDisplayIpAddress = true; })
-                .Add("t|datetime", t => { parms.IsDisplayDateTime = true; })
                 .Add("h|?|help", p => parms.IsShowHelp = true);
 
             var result = options.Parse(arguments);
-            if (result != null && result.Count > 1)
-            {
-                parms.SetupName = result[1];
-            }
 
             return parms as CommandArgs;
         }
@@ -95,8 +73,8 @@ namespace LyncRobotCommand.Command
                 const string help = @"
 Help Content:
 --------
-currentsetup -a -i -t 
-cs -a -i -t 
+currentsetup -a 
+cs -a
 
 Alias:
 --------
@@ -105,14 +83,11 @@ currentsetup => cs
 Options:
 --------
 -all -a, used to display all the params
--ipaddress -i, used to display the Ipaddress
--datetime -t, used to display the datetime the user checkout
--help -?  ,this help display
+-help -?, this help display
 
 Examples:
 ---------
 cs -a 
-cs -a -i -t
 ";
                 return help;
             }
