@@ -10,8 +10,6 @@ using Microsoft.Lync.Model;
 
 using LyncRobotCommand;
 
-
-
 namespace LyncRobot.util
 {
     // take response for send / receive message
@@ -118,7 +116,7 @@ namespace LyncRobot.util
         public string Content { get; set; }
         public DateTime Date { get; set; }
         public MessageOrientation Orientation { get; set; }
-        public LyncMessageType MessageType { get; set; }
+        //public LyncMessageType MessageType { get; set; }
     }
 
     public class TEventArgs<T> : EventArgs 
@@ -136,11 +134,11 @@ namespace LyncRobot.util
         }
     }
 
-    public enum LyncMessageType
-    { 
-        Order,
-        Setup
-    }
+    //public enum LyncMessageType
+    //{ 
+    //    Order,
+    //    Setup
+    //}
 
     public enum MessageOrientation
     { 

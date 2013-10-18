@@ -15,17 +15,17 @@ namespace LyncRobotCommand.Command
 
         public override string Description
         {
-            get { return "Used to display the setup now you can use"; }
+            get { return "Used to display the lab setups"; }
         }
 
         protected override string Execute(SetupArgs args)
         {
-            var a = args.IsAll;
+            //var a = args.IsAll;
 
-            if (args.IsAll)
-                return Setups.SetupsOutputDetails();
-            else
-                return Setups.SetupsOutput();
+            //if (args.IsAll)
+            //    return Setups.SetupsOutputDetails;
+            //else
+            return Setups.SetupsOutput;
         }
     }
 

@@ -32,10 +32,7 @@ namespace LyncRobotCommand.Command
 
             var setup = this.CommandManager.CurrentSetup;
 
-            if (args.IsDisplayAll)
-                return setup.SetupOutputDetailsAll();
-
-            return setup.SetupOutputDetails();
+            return setup.SetupOutputDetails;
         }
     }
 
@@ -58,7 +55,7 @@ namespace LyncRobotCommand.Command
             var parms = new CurrentSetupArgs();
 
             var options = new OptionSet()
-                .Add("a|all", a => { parms.IsDisplayAll = true; })
+                //.Add("a|all", a => { parms.IsDisplayAll = true; })
                 .Add("h|?|help", p => parms.IsShowHelp = true);
 
             var result = options.Parse(arguments);
@@ -73,8 +70,8 @@ namespace LyncRobotCommand.Command
                 const string help = @"
 Help Content:
 --------
-currentsetup -a 
-cs -a
+currentsetup 
+cs 
 
 Alias:
 --------
@@ -82,12 +79,11 @@ currentsetup => cs
 
 Options:
 --------
--all -a, used to display all the params
 -help -?, this help display
 
 Examples:
 ---------
-cs -a 
+cs -help // cs -? 
 ";
                 return help;
             }

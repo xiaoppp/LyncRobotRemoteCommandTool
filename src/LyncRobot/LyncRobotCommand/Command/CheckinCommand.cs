@@ -30,7 +30,8 @@ namespace LyncRobotCommand.Command
         protected override string Execute(CheckinArgs args)
         {
             var setup = CommandManager.CurrentSetup;
-            Machine machine = null;
+
+            MachineEntity machine = null;
             if (!string.IsNullOrEmpty(args.IpAddress))
                 machine = setup.GetMachinebyIpaddress(args.IpAddress);
             else if (!string.IsNullOrEmpty(args.MachineName))
@@ -41,7 +42,7 @@ namespace LyncRobotCommand.Command
             if (machine != null)
             {
                 machine.IsCheckout = false;
-                machine.CheckinDate = System.DateTime.Now.ToString();
+                machine.CheckinDate = System.DateTime.Now.ToShortTimeString();
                 machine.UserName = CommandManager.ParticipantURI;
             }
 
@@ -90,8 +91,8 @@ checkout => out
 
 Options:
 --------
--machinename -n, which machine you want to checkin
--ipaddress -i, which ipaddress you want to checkin
+-machinename -n, which machine you want to checkin / checkout
+-ipaddress -i, which ipaddress you want to checkin / checkout
 -help -?  ,this help display
 
 Examples:

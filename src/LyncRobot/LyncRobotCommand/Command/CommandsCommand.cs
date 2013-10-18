@@ -7,33 +7,25 @@ using System.Runtime.Remoting;
 
 namespace LyncRobotCommand.Command
 {
-    public class HelpCommand : CommandBase<HelpCommand, HelpArgs>
+    public class CommandsCommand : CommandBase<CommandsCommand, CommandsArgs>
     {
-        protected override string Execute(HelpArgs arg)
+        protected override string Execute(CommandsArgs arg)
         {
-            if (!string.IsNullOrEmpty(arg.CommandName))
-            {
-                var command = CommandManager.FindCommand(arg.CommandName);
-            }
-
-            StringBuilder builder = new StringBuilder();
-            builder.Append(CommandManager.OutputAllCommandContent());
-            
-            return builder.ToString();
+            return CommandManager.OutputAllCommandContent;
         }
 
         public override string Name
         {
-            get { return "Help"; }
+            get { return "Commands"; }
         }
 
         public override string Description
         {
-            get { return "This is used to help topic"; }
+            get { return "Get the commands which you can use in this robot"; }
         }
     }
 
-    public class HelpArgs : CommandArgs
+    public class CommandsArgs : CommandArgs
     {
         public string CommandName { get; private set; }
         public override string Warnings
@@ -45,7 +37,7 @@ namespace LyncRobotCommand.Command
 
         public override CommandArgs Parse(IEnumerable<string> arguments)
         {
-            var parms = new HelpArgs();
+            var parms = new CommandsArgs();
 
             var options = new OptionSet()
                 .Add("a|all", a => { parms.IsDisplayAll = true; })

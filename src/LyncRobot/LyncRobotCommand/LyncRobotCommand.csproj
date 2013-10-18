@@ -47,11 +47,13 @@
     <Compile Include="Command\CheckoutCommand.cs" />
     <Compile Include="Command\CurrentSetupCommand.cs" />
     <Compile Include="Command\EnterCommand.cs" />
-    <Compile Include="Command\HelpCommand.cs" />
+    <Compile Include="Command\CommandsCommand.cs" />
+    <Compile Include="Command\FindCommand.cs" />
     <Compile Include="Command\OrderCommand.cs" />
     <Compile Include="Command\SetupCommand.cs" />
-    <Compile Include="Entity\LabSetpupEntity.cs" />
+    <Compile Include="Entity\MachineEntity.cs" />
     <Compile Include="Entity\OrderEntity.cs" />
+    <Compile Include="Entity\SetupEntity.cs" />
     <Compile Include="Entity\Setups.cs" />
     <Compile Include="ICommand.cs" />
     <Compile Include="Option.cs" />

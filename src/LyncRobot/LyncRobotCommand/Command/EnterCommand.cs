@@ -43,12 +43,12 @@ namespace LyncRobotCommand.Command
 
         public override string Description
         {
-            get { return "Used to enter one setup"; }
+            get { return "Used to enter into one setup"; }
         }
 
         protected override string Execute(EnterArgs args)
         {
-            var setupName = args.SetupName;
+            var setupName = args.SetupName.ToLower();
             
             var setup = Setups.GetSetupByName(args.SetupName);
             if (setup == null)
@@ -58,10 +58,7 @@ namespace LyncRobotCommand.Command
                 //set current setup
                 this.CommandManager.CurrentSetup = setup;
 
-                if (args.IsDisplayAll)
-                    return setup.SetupOutputDetailsAll();
-
-                return setup.SetupOutputDetails();
+                return setup.SetupOutputDetails;
             }
         }
     }
@@ -85,10 +82,10 @@ namespace LyncRobotCommand.Command
             var parms = new EnterArgs();
             
             var options = new OptionSet()
-                .Add("n=|setup", n => { parms.SetupName = n; })
-                .Add("a|all", a => { parms.IsDisplayAll = true; })
-                .Add("i|ipaddress", i => { parms.IsDisplayIpAddress = true; })
-                .Add("t|datetime", t => { parms.IsDisplayDateTime = true; })
+                //.Add("n=|setup", n => { parms.SetupName = n; })
+                //.Add("a|all", a => { parms.IsDisplayAll = true; })
+                //.Add("i|ipaddress", i => { parms.IsDisplayIpAddress = true; })
+                //.Add("t|datetime", t => { parms.IsDisplayDateTime = true; })
                 .Add("h|?|help", p => parms.IsShowHelp = true);
 
             var result = options.Parse(arguments);
@@ -107,17 +104,18 @@ namespace LyncRobotCommand.Command
                 const string help = @"
 Help Content:
 --------
-enter # -a -n=#
+enter # -n=#
 
 Options:
 --------
 -n -setup, which setup you want to enter
--all -a, used to display all the params
 -help -?  ,this help display
 
 Examples:
 ---------
-ENTER S20 -a 
+ENTER S20
+enter -n s20
+enter -? // enter -help
 ";
                 return help;
             }

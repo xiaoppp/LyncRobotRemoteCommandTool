@@ -30,12 +30,12 @@ namespace LyncRobotCommand
             LoadAllCommands();
         }
 
-        public Setup CurrentSetup { get; set; }
+        public SetupEntity CurrentSetup { get; set; }
 
         public void LoadAllCommands()
         {
-            OrderCommand order = new OrderCommand();
-            HelpCommand help = new HelpCommand();
+            //OrderCommand order = new OrderCommand();
+            CommandsCommand help = new CommandsCommand();
             EnterCommand enter = new EnterCommand();
             CheckinCommand checkin = new CheckinCommand();
             CheckoutCommand checkout = new CheckoutCommand();
@@ -45,23 +45,29 @@ namespace LyncRobotCommand
             this.Commands = new Collection<ICommand>() { help, enter, checkin, checkout, currentsetup, setup };
         }
 
-        public string OutputAllCommandContent()
+        public string OutputAllCommandContent
         {
-            StringBuilder builder = new StringBuilder();
-            foreach (var command in Commands)
+            get
             {
-                builder.AppendLine(command.Name + ": " + command.Description);
+                StringBuilder builder = new StringBuilder();
+
+                string header = String.Format("{0, -15} {1, 11}\n", "Name", "Description");
+                string split = string.Format("{0, -15} {1, 11}\n",  "----", "-----------");
+
+                builder.Append(header);
+                builder.AppendLine(split);
+
+                foreach (var command in Commands)
+                    builder.AppendLine(string.Format("{0, -15} {1, 11}", command.Name, command.Description));
+                
+                return builder.ToString();
             }
-            return builder.ToString();
         }
 
         public string ShowWelcome()
         {
             StringBuilder output = new StringBuilder();
-
-            output.AppendLine("Welcome to access robot...");
-            output.AppendLine("For details how to use the command, you can type help -a, help -command name...");
-
+            output.AppendLine("Welcome to access Lync setup robot, you can get help by typing commands...");
             return output.ToString();
         }
 
@@ -86,11 +92,16 @@ namespace LyncRobotCommand
                 command = FindCommand(commandname);
 
                 if (command == null)
-                    return "unknown command";
+                    return "unknown command...";
                 else
                 {
                     command.CommandManager = this;
-                    return command.Run(e);
+
+                    StringBuilder sb = new StringBuilder();
+                    sb.AppendLine();
+                    sb.AppendLine(command.Run(e));
+
+                    return sb.ToString();
                 }
             }
             else

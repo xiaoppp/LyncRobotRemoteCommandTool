@@ -29,7 +29,7 @@ namespace LyncRobotCommand.Command
         protected override string Execute(CheckinArgs args)
         {
             var setup = CommandManager.CurrentSetup;
-            Machine machine = null;
+            MachineEntity machine = null;
             if (!string.IsNullOrEmpty(args.IpAddress))
                 machine = setup.GetMachinebyIpaddress(args.IpAddress);
             else if (!string.IsNullOrEmpty(args.MachineName))
@@ -40,7 +40,7 @@ namespace LyncRobotCommand.Command
             if (machine != null)
             {
                 machine.IsCheckout = true;
-                machine.CheckoutDate = System.DateTime.Now.ToString();
+                machine.CheckoutDate = System.DateTime.Now.ToShortTimeString();
                 machine.UserName = CommandManager.ParticipantURI;
             }
 

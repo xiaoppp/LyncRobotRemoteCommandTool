@@ -7,174 +7,86 @@ namespace LyncRobotCommand.Entity
 {
     public static class Setups
     {
-        public static List<Setup> SetupList { get; set; }
+        public static List<SetupEntity> SetupList { get; set; }
         // key: setup name s1, s2
         // value: set
-        private static Dictionary<string, Setup> SetupNameDic { get; set; }
+        //private static Dictionary<string, Setup> SetupNameDic { get; set; }
 
         static Setups()
         {
-            SetupList = new List<Setup>();
-            SetupNameDic = new Dictionary<string, Setup>();
+            SetupList = new List<SetupEntity>();
 
-            Setup setup = new Setup() { SetupName = "s20" };
-            setup.Machines = new List<Machine> {
-                new Machine{ MachineName = "UIP7PDB".ToLower(), IPAddress="192.168.1.1" },
-                new Machine { MachineName = "UIP7RDB".ToLower(), IPAddress = "192.168.1.2" },
-                new Machine { MachineName = "UIP7Core".ToLower(), IPAddress = "192.168.1.3" },
-                new Machine { MachineName = "UIP7Corex".ToLower(), IPAddress = "192.168.1.4" },
-                new Machine { MachineName = "UIP7UCC".ToLower(), IPAddress = "192.168.1.5" }
+            SetupEntity setup = new SetupEntity() { SetupName = "S19", Version = "71CM02" };
+            setup.Machines = new List<MachineEntity> {
+                new MachineEntity { MachineName = "UIP71PDM", IPAddress = "10.200.47.51", MachineUser = "administrator", MachinePassword = "Aspect9", MachineDomain = "RD2" },
+                new MachineEntity { MachineName = "UIP71BDM", IPAddress = "10.200.47.52", MachineUser = "administrator", MachinePassword = "Aspect9", MachineDomain = "RD2" },
+                new MachineEntity { MachineName = "UIP71RDM", IPAddress = "10.200.47.53", MachineUser = "administrator", MachinePassword = "Aspect9", MachineDomain = "RD2" },
+                new MachineEntity { MachineName = "UIP71CORE", IPAddress = "10.200.47.54", MachineUser = "administrator", MachinePassword = "Aspect9", MachineDomain = "RD2" },
+                new MachineEntity { MachineName = "UIP71CORE-EXP", IPAddress = "10.200.47.55", MachineUser = "administrator", MachinePassword = "Aspect9", MachineDomain = "RD2" },
+                new MachineEntity { MachineName = "UIP71CORER", IPAddress = "10.200.47.56", MachineUser = "administrator", MachinePassword = "Aspect9", MachineDomain = "RD2" },
+                new MachineEntity { MachineName = "UIP71CORER-EXP", IPAddress = "10.200.47.57", MachineUser = "administrator", MachinePassword = "Aspect9", MachineDomain = "RD2" },
+                new MachineEntity { MachineName = "UIP71UCC", IPAddress = "10.200.47.58", MachineUser = "administrator", MachinePassword = "Aspect9", MachineDomain = "RD2" },
+                new MachineEntity { MachineName = "UIP71UCC-RED", IPAddress = "10.200.47.59", MachineUser = "administrator", MachinePassword = "Aspect9", MachineDomain = "RD2" },
+                new MachineEntity { MachineName = "UIP71CLIENT-W7", IPAddress = "10.200.47.79", MachineUser = "administrator", MachinePassword = "Aspect9", MachineDomain = "RD2" }                
             };
 
-            Setup setup1 = new Setup() { SetupName = "s21" };
-            setup1.Machines = new List<Machine> {
-                new Machine{ MachineName = "UIP7PDB".ToLower(), IPAddress="10.200.47.1" },
-                new Machine { MachineName = "UIP7RDB".ToLower(), IPAddress = "10.200.47.2" },
-                new Machine { MachineName = "UIP7Core".ToLower(), IPAddress = "10.200.47.3" },
-                new Machine { MachineName = "UIP7Corex".ToLower(), IPAddress = "10.200.47.4" },
-                new Machine { MachineName = "UIP7UCC".ToLower(), IPAddress = "10.200.47.5" }
+            SetupEntity setup1 = new SetupEntity() { SetupName = "S21", Version = "71CM02" };
+            setup1.Machines = new List<MachineEntity> {
+                new MachineEntity { MachineName = "DLNS21UIPPDB", IPAddress="10.200.47.192", MachineUser = "administrator", MachinePassword = "Aspect9", MachineDomain = "RD2" },
+                new MachineEntity { MachineName = "DLNS21UIPRDB", IPAddress = "10.200.47.193", MachineUser = "administrator", MachinePassword = "Aspect9", MachineDomain = "RD2"},
+                new MachineEntity { MachineName = "DLNS21UIPCore", IPAddress = "10.200.47.194", MachineUser = "administrator", MachinePassword = "Aspect9", MachineDomain = "RD2" },
+                new MachineEntity { MachineName = "DLNS21UIPCoreX", IPAddress = "10.200.47.195", MachineUser = "administrator", MachinePassword = "Aspect9", MachineDomain = "RD2" },
+                new MachineEntity { MachineName = "DLNS21UIPUCC", IPAddress = "10.200.47.196", MachineUser = "administrator", MachinePassword = "Aspect9", MachineDomain = "RD2" },
+                new MachineEntity { MachineName = "DLNS21UIPClient", IPAddress = "10.200.47.197", MachineUser = "administrator", MachinePassword = "Aspect9", MachineDomain = "RD2" },
+                new MachineEntity { MachineName = "DLNS21UIPC2", IPAddress = "10.200.47.198", MachineUser = "administrator", MachinePassword = "Aspect9", MachineDomain = "RD2" }
             };
 
             SetupList.Add(setup);
-            SetupNameDic.Add("s20", setup);
             SetupList.Add(setup1);
-            SetupNameDic.Add("s21", setup1);
         }
 
-        public static Setup GetSetupByName(string name)
+        public static SetupEntity GetSetupByName(string name)
         {
-            if (SetupNameDic.ContainsKey(name))
-                return SetupNameDic[name];
-
-            return null;
+            var setup = SetupList.SingleOrDefault<SetupEntity>(s => s.SetupName.ToLower() == name.ToLower());
+            return setup;
         }
 
-        public static string SetupsOutput()
+        public static string SetupsOutput
         {
-            StringBuilder builder = new StringBuilder();
-
-            foreach (var set in SetupList)
+            get
             {
-                builder.AppendLine(set.SetupName);
-            }
+                StringBuilder builder = new StringBuilder();
 
-            return builder.ToString();
+                string header = String.Format("{0, -10} {1, 10}\n", "Setup Name", "Version");
+                string split = string.Format("{0, -10} {1, 10}\n",  "----------", "-------");
+
+                builder.Append(header);
+                builder.AppendLine(split);
+
+                foreach (var set in SetupList)
+                {
+                    var a = string.Format("{0, -10} {1, 10}", set.SetupName, set.Version);
+                    builder.AppendLine(a);
+                }
+
+                return builder.ToString();
+            }
         }
 
-        public static string SetupsOutputDetails()
+        public static string SetupsOutputDetails
         {
-            StringBuilder builder = new StringBuilder();
-
-            foreach (var set in SetupList)
+            get
             {
-                builder.AppendLine(set.SetupOutputDetails());
+                StringBuilder builder = new StringBuilder();
+
+                foreach (var set in SetupList)
+                {
+                    builder.AppendLine(set.SetupOutputDetails);
+                    builder.AppendLine();
+                }
+
+                return builder.ToString();
             }
-
-            return builder.ToString();
-        }
-    }
-
-    public class Setup
-    {
-        public List<Machine> Machines { get; set; }
-        public string SetupName { get; set; }
-
-        public Setup()
-        {
-            Machines = new List<Machine>();
-        }
-
-        public Machine GetMachine(string machineName)
-        {
-            machineName = machineName.ToLower();
-            return Machines.SingleOrDefault<Machine>(m => m.MachineName == machineName);
-        }
-
-        public Machine GetMachinebyIpaddress(string ipaddress)
-        {
-            return Machines.SingleOrDefault<Machine>(m => m.IPAddress == ipaddress);
-        }
-
-        public string SetupOutput()
-        {
-            return "This is " + SetupName + " setup.";
-        }
-
-        public string SetupOutputDetails()
-        {
-            StringBuilder builder = new StringBuilder();
-
-            builder.AppendLine(SetupOutput());
-            foreach (var machine in this.Machines)
-            {
-                builder.AppendLine();
-                builder.Append(machine.MachineOutput());
-            }
-
-            return builder.ToString();
-        }
-
-        public string SetupOutputDetailsAll()
-        {
-            StringBuilder builder = new StringBuilder();
-
-            builder.AppendLine(SetupOutput());
-            foreach (var machine in this.Machines)
-            {
-                builder.AppendLine();
-                builder.Append(machine.MachineOutputALL());
-            }
-
-            return builder.ToString();
-        }
-    }
-
-    public class Machine
-    {
-        private string machineName;
-        public string MachineName
-        {
-            get { return machineName; }
-            set {
-                machineName = value.ToLower();
-            }
-        }
-        public string UserName { get; set; }
-        public string CheckoutDate { get; set; }
-        public string CheckinDate { get; set; }
-        public string IPAddress { get; set; }
-        public bool IsCheckout { get; set; }
-
-        public Machine()
-        {
-            IsCheckout = false;
-        }
-
-        public string Status
-        {
-            get 
-            {
-                if (IsCheckout)
-                    return "check out";
-                else
-                    return "nobody used";
-            }
-        }
-
-        public string MachineOutput()
-        {
-            if (IsCheckout)
-                return MachineName + ": " + Status + " by " + UserName;
-            else
-                return MachineName + ": " + Status;
-        }
-
-        public string MachineOutputALL()
-        {
-            if (IsCheckout)
-                return MachineName + ": " + Status + " by " + UserName + " " + this.IPAddress + " " + this.CheckoutDate;
-            else
-                return MachineName + ": " + Status + " " + this.IPAddress + " " + this.CheckoutDate;
         }
     }
 }

@@ -13,7 +13,7 @@ namespace LyncRobotConsole
         {
             Console.Clear();
 
-            CommandManager manager = new CommandManager("console");
+            CommandManager manager = new CommandManager("xiao.peng@aspect.com");
 
             Console.WriteLine(manager.ShowWelcome());
             
